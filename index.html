@@ -3,7 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Transforme Seus Gastos em Renda — Marcela Daniel</title>
+
+  <!-- ═══ SEO PRIMÁRIO ═══ -->
+  <title>Transforme Seus Gastos em Renda — Marcela Daniel | Estratégia Financeira Feminina</title>
+  <meta name="description" content="Aprenda a usar o cartão de crédito com inteligência e estratégia. Descubra como transformar seus gastos do dia a dia em renda real — mesmo começando do zero." />
+  <meta name="keywords" content="cartão de crédito, estratégia financeira, cashback, pontos, milhas, renda extra, finanças femininas, Marcela Daniel, liberdade financeira" />
+  <meta name="author" content="Marcela Daniel" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#FF4FA3" />
+  <link rel="canonical" href="https://marceladaniel.com.br/" />
+
+  <!-- ═══ FAVICON ═══ -->
+  <link rel="icon" type="image/webp" href="favicon.webp" />
+  <link rel="shortcut icon" href="favicon.webp" />
+  <link rel="apple-touch-icon" href="favicon.webp" />
+
+  <!-- ═══ OPEN GRAPH (Facebook / WhatsApp / LinkedIn) ═══ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://marceladaniel.com.br/" />
+  <meta property="og:title" content="Transforme Seus Gastos em Renda — Marcela Daniel" />
+  <meta property="og:description" content="Aprenda a usar o cartão de crédito com inteligência e estratégia. Descubra como transformar seus gastos do dia a dia em renda real — mesmo começando do zero." />
+  <meta property="og:image" content="https://marceladaniel.com.br/hero-marcela.webp" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Marcela Daniel — Estratégia Financeira Feminina" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Marcela Daniel" />
+
+  <!-- ═══ TWITTER / X CARD ═══ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Transforme Seus Gastos em Renda — Marcela Daniel" />
+  <meta name="twitter:description" content="Aprenda a usar o cartão de crédito com inteligência e estratégia. Descubra como transformar seus gastos do dia a dia em renda real." />
+  <meta name="twitter:image" content="https://marceladaniel.com.br/hero-marcela.webp" />
+
+  <!-- ═══ JSON-LD SCHEMA ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Marcela Daniel",
+    "url": "https://marceladaniel.com.br/",
+    "image": "https://marceladaniel.com.br/hero-marcela.webp",
+    "description": "Especialista em estratégia financeira feminina. Ensina mulheres a transformar gastos do dia a dia em renda real usando cartão de crédito com inteligência.",
+    "sameAs": [],
+    "knowsAbout": ["Finanças Pessoais", "Cartão de Crédito", "Cashback", "Milhas Aéreas", "Renda Extra", "Liberdade Financeira"]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Transforme Seus Gastos em Renda — Marcela Daniel",
+    "description": "Aprenda a usar o cartão de crédito com inteligência e estratégia. Descubra como transformar seus gastos do dia a dia em renda real.",
+    "url": "https://marceladaniel.com.br/",
+    "inLanguage": "pt-BR",
+    "publisher": {
+      "@type": "Person",
+      "name": "Marcela Daniel"
+    }
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -59,37 +119,66 @@
     }
 
     /* ─── KEYFRAMES ─── */
-    @keyframes fadeUp   { from { opacity:0; transform:translateY(32px); } to { opacity:1; transform:translateY(0); } }
+    @keyframes fadeUp   { from { opacity:0; transform:translateY(40px) scale(0.97); } to { opacity:1; transform:translateY(0) scale(1); } }
+    @keyframes fadeLeft { from { opacity:0; transform:translateX(-36px); } to { opacity:1; transform:translateX(0); } }
+    @keyframes fadeRight{ from { opacity:0; transform:translateX(36px); } to { opacity:1; transform:translateX(0); } }
+    @keyframes scaleIn  { from { opacity:0; transform:scale(0.88) translateY(16px); } to { opacity:1; transform:scale(1) translateY(0); } }
     @keyframes fadeIn   { from { opacity:0; } to { opacity:1; } }
-    @keyframes floatY   { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-10px); } }
+    @keyframes floatY   { 0%,100% { transform:translateY(0) rotate(0deg); } 50% { transform:translateY(-16px) rotate(0.6deg); } }
+    @keyframes floatYAlt{ 0%,100% { transform:translateY(0) rotate(0deg); } 50% { transform:translateY(-12px) rotate(-0.5deg); } }
     @keyframes rotateSlow { from { transform:rotate(0deg); } to { transform:rotate(360deg); } }
     @keyframes shimmer  { 0% { background-position:-200% center; } 100% { background-position:200% center; } }
     @keyframes pulseGlow {
-      0%,100% { box-shadow: 0 4px 24px rgba(25,195,125,0.28); }
-      50%      { box-shadow: 0 4px 48px rgba(25,195,125,0.52); }
+      0%,100% { box-shadow: 0 4px 24px rgba(25,195,125,0.30), 0 0 0 0 rgba(25,195,125,0.18); }
+      50%      { box-shadow: 0 4px 60px rgba(25,195,125,0.58), 0 0 0 10px rgba(25,195,125,0); }
     }
     @keyframes badgePulse {
-      0%,100% { box-shadow: 0 0 0 0 rgba(255,79,163,0.35); }
-      50%      { box-shadow: 0 0 0 6px rgba(255,79,163,0); }
+      0%,100% { box-shadow: 0 0 0 0 rgba(255,79,163,0.45); }
+      50%      { box-shadow: 0 0 0 9px rgba(255,79,163,0); }
     }
     @keyframes scrollLine {
       0%   { opacity:1; transform:scaleY(1) translateY(0); }
       100% { opacity:0; transform:scaleY(0.3) translateY(20px); }
     }
+    @keyframes blobDrift {
+      0%,100% { transform:translate(0,0) scale(1); }
+      33%     { transform:translate(22px,-18px) scale(1.06); }
+      66%     { transform:translate(-12px,22px) scale(0.96); }
+    }
+    @keyframes cardPop {
+      0%   { opacity:0; transform:translateY(24px) scale(0.88); }
+      65%  { transform:translateY(-5px) scale(1.04); }
+      100% { opacity:1; transform:translateY(0) scale(1); }
+    }
+    @keyframes navSlide {
+      from { opacity:0; transform:translateY(-100%); }
+      to   { opacity:1; transform:translateY(0); }
+    }
+    @keyframes imgEntrance {
+      0%   { opacity:0; transform:scale(0.9) translateY(20px); filter:drop-shadow(0 0 0 rgba(255,79,163,0)); }
+      100% { opacity:1; transform:scale(1) translateY(0); filter:drop-shadow(0 40px 80px rgba(255,79,163,0.18)); }
+    }
 
     /* ─── REVEAL ─── */
     .reveal {
       opacity: 0;
-      transform: translateY(28px);
-      transition: opacity 0.65s var(--ease), transform 0.65s var(--ease);
+      transform: translateY(32px);
+      transition: opacity 0.72s var(--ease), transform 0.72s var(--ease);
+      will-change: opacity, transform;
     }
     .reveal.in { opacity:1; transform:translateY(0); }
-    .d1 { transition-delay:.10s; }
-    .d2 { transition-delay:.20s; }
-    .d3 { transition-delay:.30s; }
-    .d4 { transition-delay:.40s; }
-    .d5 { transition-delay:.50s; }
-    .d6 { transition-delay:.60s; }
+    .reveal-left  { transform:translateX(-32px) translateY(0); }
+    .reveal-left.in  { transform:translateX(0); }
+    .reveal-right { transform:translateX(32px) translateY(0); }
+    .reveal-right.in { transform:translateX(0); }
+    .reveal-scale { transform:scale(0.9) translateY(18px); }
+    .reveal-scale.in { transform:scale(1) translateY(0); }
+    .d1 { transition-delay:.08s; }
+    .d2 { transition-delay:.16s; }
+    .d3 { transition-delay:.26s; }
+    .d4 { transition-delay:.36s; }
+    .d5 { transition-delay:.46s; }
+    .d6 { transition-delay:.56s; }
 
     /* ─── LAYOUT ─── */
     .container { max-width:1200px; margin:0 auto; padding:0 28px; }
@@ -98,6 +187,7 @@
     nav {
       position: fixed; top:0; left:0; right:0; z-index:200;
       padding: 0 28px;
+      animation: navSlide 0.7s var(--ease) both;
       transition: background var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
     }
     nav.scrolled {
@@ -114,19 +204,18 @@
     .logo { display:flex; align-items:center; gap:10px; text-decoration:none; }
     .logo-mark {
       width:38px; height:38px;
-      background: linear-gradient(135deg, var(--pink) 0%, var(--green) 100%);
       border-radius:10px;
-      display:flex; align-items:center; justify-content:center;
-      font-weight:900; font-size:13px; color:#fff; letter-spacing:-0.5px;
+      overflow:hidden; flex-shrink:0;
     }
+    .logo-mark img { width:100%; height:100%; object-fit:cover; display:block; }
     .logo-text { font-size:16px; font-weight:700; color:var(--graphite); letter-spacing:-0.3px; }
     .logo-text em { font-style:normal; color:var(--pink); }
     .nav-btn {
       background: var(--green); color:#fff;
       border:none; padding:10px 22px;
       border-radius:var(--r-btn);
-      font-family:var(--font); font-size:13px; font-weight:700; letter-spacing:.3px;
-      cursor:pointer; text-decoration:none;
+      font-family:var(--font); font-size:clamp(11px,1.2vw,13px); font-weight:700; letter-spacing:.3px;
+      cursor:pointer; text-decoration:none; white-space:nowrap; flex-shrink:0;
       transition: background var(--dur) var(--ease), transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
     }
     .nav-btn:hover { background:var(--green-dark); transform:translateY(-1px); box-shadow:var(--shadow-green); }
@@ -149,12 +238,12 @@
     .btn:hover::after { left:100%; }
     .btn-green {
       background: var(--green); color:#fff;
-      animation: pulseGlow 3s ease-in-out infinite;
+      animation: pulseGlow 2.6s ease-in-out infinite;
     }
     .btn-green:hover {
       background: var(--green-dark);
-      transform: translateY(-3px);
-      box-shadow: var(--shadow-green);
+      transform: translateY(-4px) scale(1.025);
+      box-shadow: 0 12px 40px rgba(25,195,125,0.45);
       animation: none;
     }
     .btn-outline {
@@ -233,12 +322,14 @@
     .hero-bg-pink {
       position:absolute; top:-180px; right:-180px;
       width:700px; height:700px; pointer-events:none;
-      background: radial-gradient(circle, rgba(255,79,163,0.13) 0%, transparent 68%);
+      background: radial-gradient(circle, rgba(255,79,163,0.14) 0%, transparent 68%);
+      animation: blobDrift 9s ease-in-out infinite;
     }
     .hero-bg-green {
       position:absolute; bottom:-120px; left:-120px;
       width:500px; height:500px; pointer-events:none;
-      background: radial-gradient(circle, rgba(25,195,125,0.09) 0%, transparent 68%);
+      background: radial-gradient(circle, rgba(25,195,125,0.10) 0%, transparent 68%);
+      animation: blobDrift 12s ease-in-out 2.5s infinite;
     }
     .hero-dots {
       position:absolute; inset:0; pointer-events:none;
@@ -251,7 +342,7 @@
       gap:72px; align-items:center;
       position:relative; z-index:1; width:100%;
     }
-    .hero-content { animation: fadeUp .8s var(--ease) both; }
+    .hero-content { animation: fadeUp 0.9s var(--ease) 0.1s both; }
     .hero-badge {
       display:inline-flex; align-items:center; gap:8px;
       background:var(--pink-bg); border:1px solid var(--pink-soft);
@@ -287,14 +378,15 @@
     .bullet-icon svg { width:12px; height:12px; }
 
     /* floating cards */
-    .hero-visual { position:relative; animation: fadeIn 1s var(--ease) .3s both; }
+    .hero-visual { position:relative; animation: scaleIn 1s var(--ease) 0.25s both; }
+    .hero-img { animation: imgEntrance 1.1s var(--ease) 0.3s both; }
     .float-card {
       position:absolute; background:#fff; border-radius:16px;
       padding:13px 18px; box-shadow:0 12px 40px rgba(17,17,17,0.10);
-      display:flex; align-items:center; gap:10px; z-index:2;
+      display:flex; align-items:center; gap:10px; z-index:10;
     }
-    .fc1 { bottom:-22px; left:-36px; animation: floatY 4.2s ease-in-out infinite; }
-    .fc2 { top:-18px; right:-18px; animation: floatY 3.6s ease-in-out .8s infinite; }
+    .fc1 { bottom:-22px; left:-36px; animation: cardPop 0.8s var(--ease) 1.1s both, floatY 4.4s ease-in-out 1.9s infinite; }
+    .fc2 { top:-18px; right:-18px; animation: cardPop 0.8s var(--ease) 1.4s both, floatYAlt 3.8s ease-in-out 2.2s infinite; }
     .fc-ico {
       width:38px; height:38px; border-radius:10px;
       display:flex; align-items:center; justify-content:center; font-size:19px;
@@ -365,7 +457,8 @@
       background:var(--white); border-radius:var(--r-card);
       padding:36px 28px; border:1px solid transparent;
       box-shadow:var(--shadow); position:relative; overflow:hidden;
-      transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease), border-color var(--dur) var(--ease);
+      transition: transform 0.38s var(--ease), box-shadow 0.38s var(--ease), border-color 0.38s var(--ease);
+      will-change: transform;
     }
     .benefit-card::before {
       content:''; position:absolute; top:0; left:0; right:0; height:3px;
@@ -373,7 +466,7 @@
       transform:scaleX(0); transform-origin:left;
       transition: transform .45s var(--ease);
     }
-    .benefit-card:hover { transform:translateY(-8px); box-shadow:var(--shadow-hover); border-color:var(--gray-light); }
+    .benefit-card:hover { transform:translateY(-10px) scale(1.01); box-shadow:var(--shadow-hover); border-color:var(--gray-light); }
     .benefit-card:hover::before { transform:scaleX(1); }
     .bc-num {
       position:absolute; top:24px; right:24px;
@@ -460,6 +553,38 @@
       line-height:1.1; letter-spacing:-1px; color:var(--white); margin-bottom:36px;
     }
     .cta-mid-title span { color:var(--pink-light); }
+    .cta-mid-body {
+      font-size:clamp(15px,1.3vw,18px); color:rgba(255,255,255,0.65);
+      line-height:1.75; margin-bottom:44px; max-width:600px; margin-left:auto; margin-right:auto;
+    }
+    .cta-mid-topics {
+      display:grid; grid-template-columns:repeat(3,1fr);
+      gap:18px; margin-bottom:48px; text-align:left;
+    }
+    .cta-topic {
+      display:flex; align-items:flex-start; gap:14px;
+      background:rgba(255,255,255,0.06);
+      border:1px solid rgba(255,255,255,0.10);
+      border-radius:var(--r-card); padding:26px 22px;
+      transition: background var(--dur) var(--ease), border-color var(--dur) var(--ease);
+    }
+    .cta-topic:hover { background:rgba(255,255,255,0.11); border-color:rgba(255,79,163,0.35); }
+    .ct-num {
+      font-size:32px; font-weight:900; line-height:1;
+      letter-spacing:-1.5px; color:var(--pink-light); flex-shrink:0; opacity:.5;
+    }
+    .ct-title { font-size:15px; font-weight:700; color:var(--white); margin-bottom:7px; }
+    .ct-desc  { font-size:13px; color:rgba(255,255,255,0.52); line-height:1.65; }
+
+    /* ─── HERO / TF IMAGES ─── */
+    .hero-img {
+      width:100%; display:block; position:relative; z-index:1;
+      filter: drop-shadow(0 40px 80px rgba(255,79,163,0.18));
+    }
+    .tf-photo {
+      width:100%; height:100%; object-fit:cover;
+      border-radius:var(--r-card); display:block;
+    }
 
     /* ─── FINAL CTA ─── */
     .cta-final { padding:96px 28px; background:var(--white); position:relative; overflow:hidden; }
@@ -552,10 +677,10 @@
     .footer-logo { display:flex; align-items:center; justify-content:center; gap:10px; margin-bottom:24px; }
     .footer-mark {
       width:36px; height:36px;
-      background: linear-gradient(135deg, var(--pink), var(--green));
-      border-radius:10px; display:flex; align-items:center; justify-content:center;
-      font-weight:900; font-size:13px; color:#fff;
+      overflow:hidden;
+      border-radius:10px;
     }
+    .footer-mark img { width:100%; height:100%; object-fit:cover; display:block; }
     .footer-brand { font-size:15px; font-weight:700; color:var(--white); }
     .footer-brand em { font-style:normal; color:var(--pink-light); }
     .footer-divider { height:1px; background:rgba(255,255,255,0.08); margin:24px 0; }
@@ -565,29 +690,81 @@
     @media (max-width:1024px) {
       .benefits-grid { grid-template-columns:repeat(2,1fr); }
     }
+    /* ─── TABLET ─── */
     @media (max-width:800px) {
-      .hero { padding:120px 20px 80px; }
-      .hero-grid { grid-template-columns:1fr; gap:52px; }
-      .hero-visual { order:-1; }
-      .fc1, .fc2 { display:none; }
-      .opportunity, .benefits, .transformation, .cta-mid, .cta-final, .faq { padding:64px 20px; }
-      .opp-grid  { grid-template-columns:1fr; gap:48px; }
-      .opp-img   { order:-1; }
-      .tf-grid   { grid-template-columns:1fr; gap:48px; }
-      .tf-img    { order:-1; }
-      .trust-inner { gap:24px; }
+      /* NAV */
+      nav { padding:0 16px; }
+      .nav-inner { height:60px; }
+      .logo-text { font-size:15px; }
+
+      /* HERO */
+      .hero { padding:88px 20px 60px; min-height:auto; }
+      .hero-grid { grid-template-columns:1fr; gap:32px; }
+      .hero-visual { order:1; }
+      .hero-content { text-align:center; }
+      .hero-sub { margin-left:auto; margin-right:auto; }
+      .hero-bullets { align-items:flex-start; max-width:360px; margin-left:auto; margin-right:auto; }
+      .hero-badge { margin-left:auto; margin-right:auto; }
+      .fc1 { bottom:-14px; left:-8px; transform:scale(0.8); transform-origin:bottom left; }
+      .fc2 { top:-12px; right:-8px; transform:scale(0.8); transform-origin:top right; }
+
+      /* SEÇÕES */
+      .opportunity, .benefits, .transformation, .cta-mid, .cta-final, .faq { padding:60px 20px; }
+      .cta-mid-inner { max-width:100%; }
+      .cta-mid-topics { grid-template-columns:1fr; }
+      .opp-grid  { grid-template-columns:1fr; gap:40px; }
+      .opp-img   { order:1; }
+      .tf-grid   { grid-template-columns:1fr; gap:40px; }
+      .tf-img    { order:1; }
+
+      /* CENTRALIZAÇÃO GLOBAL DE TÍTULOS */
+      .section-tag  { display:block; text-align:center; }
+      .section-title { text-align:center; }
+      .section-body  { text-align:center; margin-left:auto; margin-right:auto; }
+      .deco-line  { margin-left:auto; margin-right:auto; }
+      .deco-dots  { justify-content:center; }
+      .opp-p      { text-align:center; }
+      .opp-highlight { text-align:center; }
+      .quote-footer  { text-align:center; }
+      .cta-final-inner { padding:0; }
+
+      /* TRUST */
+      .trust-inner  { gap:20px; flex-wrap:wrap; justify-content:center; }
       .trust-badges { gap:16px; }
     }
+
+    /* ─── MOBILE ─── */
     @media (max-width:600px) {
-      .benefits-grid { grid-template-columns:1fr; }
-      .hero h1 { font-size:30px; letter-spacing:-.8px; }
-      .btn { padding:16px 28px; font-size:13px; width:100%; }
-      .form-card { padding:32px 22px; }
-      .mockup-wrap { margin-top:48px; }
-    }
-    @media (max-width:400px) {
-      .hero-badge { font-size:9px; letter-spacing:1px; }
+      /* NAV — esconde texto do logo, mantém ícone + botão */
+      nav { padding:0 14px; }
+      .nav-inner { height:56px; }
+      .logo-text { font-size:14px; }
+      .nav-btn { padding:9px 16px; font-size:12px; }
+
+      /* HERO */
+      .hero { padding:80px 16px 52px; }
+      .hero h1 { font-size:clamp(26px,7.5vw,34px); letter-spacing:-.6px; }
+      .hero-sub { font-size:15px; }
+      .hero-bullets { font-size:14px; }
       .fc1, .fc2 { display:none; }
+
+      /* SECTIONS */
+      .benefits-grid { grid-template-columns:1fr; }
+      .btn { padding:16px 24px; font-size:13px; width:100%; justify-content:center; }
+      .opp-highlight { font-size:15px; padding:16px 18px; }
+      .quote-mark { font-size:72px; }
+      .quote-text { font-size:17px; }
+      .cta-topic { padding:20px 16px; gap:12px; }
+      .trust-inner { gap:14px; }
+      .trust-item { font-size:12px; }
+      .bc-title { font-size:16px; }
+    }
+
+    /* ─── MUITO PEQUENO ─── */
+    @media (max-width:400px) {
+      .logo-text { display:none; }
+      .nav-btn { padding:8px 14px; font-size:11px; }
+      .hero-badge { font-size:9px; letter-spacing:1px; }
     }
   </style>
 </head>
@@ -597,7 +774,7 @@
 <nav id="navbar">
   <div class="nav-inner">
     <a href="#" class="logo">
-      <div class="logo-mark">MD</div>
+      <div class="logo-mark"><img src="favicon.webp" alt="Marcela Daniel" /></div>
       <span class="logo-text">Marcela<em>Daniel</em></span>
     </a>
     <a href="#cta-final" class="nav-btn">Quero Aprender →</a>
@@ -664,21 +841,7 @@
 
     <!-- Visual -->
     <div class="hero-visual">
-      <!-- ╔══════════════════════════════════╗ -->
-      <!-- ║  ESPAÇO RESERVADO PARA IMAGEM HERO ║ -->
-      <!-- ╚══════════════════════════════════╝ -->
-      <div class="placeholder" style="aspect-ratio:5/4;">
-        <div class="ph-icon">
-          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-            <rect x="4" y="8" width="20" height="14" rx="3" stroke="#FF4FA3" stroke-width="1.5"/>
-            <path d="M4 12h20" stroke="#FF4FA3" stroke-width="1.5"/>
-            <circle cx="8" cy="17" r="1.5" fill="#19C37D"/>
-            <path d="M12 17h8" stroke="#19C37D" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <span class="ph-label">Espaço Reservado — Imagem Hero</span>
-        <span class="ph-sub">Foto Marcela Daniel / composição visual principal</span>
-      </div>
+      <img src="hero-marcela.webp" alt="Marcela Daniel" class="hero-img" />
 
       <!-- Floating card 1 -->
       <div class="float-card fc1">
@@ -739,19 +902,7 @@
     </div>
 
     <div class="reveal d2 opp-img">
-      <!-- ╔═══════════════════════════════════════╗ -->
-      <!-- ║  ESPAÇO RESERVADO PARA IMAGEM SEÇÃO 2 ║ -->
-      <!-- ╚═══════════════════════════════════════╝ -->
-      <div class="placeholder" style="height:100%; min-height:360px;">
-        <div class="ph-icon">
-          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-            <circle cx="14" cy="14" r="9" stroke="#19C37D" stroke-width="1.5"/>
-            <path d="M14 10v4l3 3" stroke="#19C37D" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <span class="ph-label">Espaço Reservado — Seção 2</span>
-        <span class="ph-sub">Composição visual / estilo de vida / rotina estratégica</span>
-      </div>
+      <img src="foto1.webp" alt="Estilo de vida e estratégia financeira" class="tf-photo" />
     </div>
   </div>
 </section>
@@ -844,33 +995,47 @@
     </div>
 
     <div class="reveal d2 tf-img">
-      <!-- ╔═════════════════════════════════════════════╗ -->
-      <!-- ║  ESPAÇO RESERVADO PARA IMAGEM OU COMPOSIÇÃO ║ -->
-      <!-- ╚═════════════════════════════════════════════╝ -->
-      <div class="placeholder" style="height:100%; min-height:380px;">
-        <div class="ph-icon">
-          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-            <path d="M14 4C8.477 4 4 8.477 4 14s4.477 10 10 10 10-4.477 10-10S19.523 4 14 4z" stroke="#FF4FA3" stroke-width="1.5"/>
-            <path d="M10 14l3 3 5-5" stroke="#19C37D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <span class="ph-label">Espaço Reservado — Transformação</span>
-        <span class="ph-sub">Foto inspiracional / lifestyle / aspiracional</span>
-      </div>
+      <img src="fotomarcela.webp" alt="Marcela Daniel" class="tf-photo" />
     </div>
   </div>
 </section>
 
 
-<!-- ═══════════ CTA INTERMEDIÁRIO ═══════════ -->
+<!-- ═══════════ MESMO SEM EXPERIÊNCIA ═══════════ -->
 <section class="cta-mid">
   <div class="cta-mid-inner">
-    <span class="cta-mid-tag reveal">✦ É hora de agir ✦</span>
+    <span class="cta-mid-tag reveal">✦ Para quem está começando ✦</span>
     <h2 class="cta-mid-title reveal d1">
-      Pronta para usar seu cartão com <span>mais inteligência</span> e gerar renda real?
+      Mesmo Sem Experiência, Você Pode <span>Começar</span>
     </h2>
-    <a href="#cta-final" class="btn btn-green reveal d2">
-      QUERO APRENDER A GERAR RENDA COM ESTRATÉGIA
+    <p class="cta-mid-body reveal d2">
+      Não importa se hoje você ainda não entende muito sobre cartão de crédito, vantagens ou estratégias financeiras.
+    </p>
+    <div class="cta-mid-topics reveal d3">
+      <div class="cta-topic">
+        <span class="ct-num">01</span>
+        <div>
+          <h4 class="ct-title">Aprenda com simplicidade</h4>
+          <p class="ct-desc">Um conteúdo pensado para ser fácil de entender e aplicar.</p>
+        </div>
+      </div>
+      <div class="cta-topic">
+        <span class="ct-num">02</span>
+        <div>
+          <h4 class="ct-title">Faça no seu ritmo</h4>
+          <p class="ct-desc">Sem pressão, sem complicação e respeitando a sua rotina.</p>
+        </div>
+      </div>
+      <div class="cta-topic">
+        <span class="ct-num">03</span>
+        <div>
+          <h4 class="ct-title">Comece a enxergar novas oportunidades</h4>
+          <p class="ct-desc">Com mais clareza, segurança e direção.</p>
+        </div>
+      </div>
+    </div>
+    <a href="#cta-final" class="btn btn-green reveal d4">
+      QUERO APRENDER A GANHAR MAIS COM ESTRATÉGIA
       <span class="btn-arrow">→</span>
     </a>
   </div>
@@ -882,64 +1047,17 @@
   <div class="cta-final-inner">
     <div class="reveal">
       <div class="deco-dots"><span class="deco-dot"></span><span class="deco-dot"></span><span class="deco-dot"></span></div>
-      <span class="section-tag tag-green">O primeiro passo</span>
+      <span class="section-tag tag-green">O próximo passo</span>
     </div>
-    <h2 class="section-title reveal d1">Dê o primeiro passo para uma vida financeira mais inteligente</h2>
+    <h2 class="section-title reveal d1">Comece agora a descobrir como transformar seus gastos em oportunidades</h2>
     <p class="cta-final-text reveal d2">
-      Aprenda a usar o cartão de crédito com mais simplicidade, tendo mais estratégias, sonhos e planos para o futuro.
+      Dê o primeiro passo para aprender a usar o cartão de crédito com mais inteligência, estratégia e visão de futuro.
     </p>
 
-    <div class="form-card reveal d3">
-      <span class="form-label">Cadastre-se gratuitamente</span>
-      <div class="form-fields">
-        <input class="f-input" type="text" placeholder="Seu nome completo" autocomplete="name" />
-        <input class="f-input" type="email" placeholder="Seu melhor e-mail" autocomplete="email" />
-      </div>
-      <a href="#" class="btn btn-green">
-        QUERO COMEÇAR AGORA
-        <span class="btn-arrow">→</span>
-      </a>
-    </div>
-
-    <div class="trust-badges reveal d4">
-      <div class="tb-item">
-        <span class="tb-ico">
-          <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="#12A86B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 6 5 9 10 3"/></svg>
-        </span>
-        100% gratuito
-      </div>
-      <div class="tb-item">
-        <span class="tb-ico">
-          <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="#12A86B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 6 5 9 10 3"/></svg>
-        </span>
-        Sem spam
-      </div>
-      <div class="tb-item">
-        <span class="tb-ico">
-          <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="#12A86B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 6 5 9 10 3"/></svg>
-        </span>
-        Comece agora mesmo
-      </div>
-    </div>
-
-    <!-- Mockup placeholder -->
-    <div class="mockup-wrap reveal d5">
-      <!-- ╔══════════════════════════════════════════════╗ -->
-      <!-- ║  ESPAÇO RESERVADO PARA MOCKUP / FOTO / VISUAL ║ -->
-      <!-- ╚══════════════════════════════════════════════╝ -->
-      <div class="placeholder mockup-placeholder">
-        <div class="ph-icon">
-          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-            <rect x="2" y="5" width="24" height="18" rx="3" stroke="#19C37D" stroke-width="1.5"/>
-            <path d="M2 10h24" stroke="#19C37D" stroke-width="1.5"/>
-            <rect x="7" y="14" width="6" height="5" rx="1" fill="rgba(25,195,125,0.18)" stroke="#19C37D" stroke-width="1"/>
-            <rect x="15" y="14" width="6" height="5" rx="1" fill="rgba(255,79,163,0.18)" stroke="#FF4FA3" stroke-width="1"/>
-          </svg>
-        </div>
-        <span class="ph-label">Espaço Reservado — Mockup / Foto / Elemento Visual</span>
-        <span class="ph-sub">Preview do produto / resultados / print de tela / composição</span>
-      </div>
-    </div>
+    <a href="#" class="btn btn-green reveal d3">
+      QUERO COMEÇAR AGORA
+      <span class="btn-arrow">→</span>
+    </a>
   </div>
 </section>
 
@@ -1032,12 +1150,12 @@
 <footer>
   <div class="footer-inner">
     <div class="footer-logo">
-      <div class="footer-mark">MD</div>
+      <div class="footer-mark"><img src="favicon.webp" alt="Marcela Daniel" /></div>
       <span class="footer-brand">Marcela<em>Daniel</em></span>
     </div>
     <div class="footer-divider"></div>
     <p class="footer-copy">
-      © 2024 Marcela Daniel. Todos os direitos reservados.<br>
+      © 2026 Marcela Daniel. Todos os direitos reservados.<br>
       Estratégia Financeira Feminina — Transforme seus gastos em renda.
     </p>
   </div>

@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx claude-code-templates@latest --skill creative-design/frontend-design)",
+      "Bash(npm --version)",
+      "Bash(cmd.exe /c \"node --version && npx --version\")",
+      "Bash(cmd.exe /c \"where node && where npx\")",
+      "Bash(cmd.exe /c \"powershell -Command \"\"node --version\"\"\")",
+      "Bash(curl -s https://registry.npmjs.org/claude-code-templates/latest)",
+      "Bash(curl -s https://cdn.jsdelivr.net/npm/claude-code-templates@latest/)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(d.get\\(''''repository'''',''''no repo''''\\)\\); print\\(d.get\\(''''homepage'''',''''no homepage''''\\)\\); print\\(d.get\\(''''bugs'''',''''no bugs''''\\)\\)\")",
+      "Bash(curl -s https://cdn.jsdelivr.net/npm/claude-code-templates@latest/.claude/)",
+      "Bash(curl -s https://cdn.jsdelivr.net/npm/claude-code-templates@latest/.claude-plugin/)",
+      "Bash(curl -s https://cdn.jsdelivr.net/npm/claude-code-templates@latest/.claude/commands/)",
+      "Bash(curl -s https://cdn.jsdelivr.net/npm/claude-code-templates@latest/.claude/agents/)",
+      "Bash(curl -s https://cdn.jsdelivr.net/npm/claude-code-templates@latest/.claude-plugin/marketplace.json)",
+      "Bash(curl -s https://cdn.jsdelivr.net/npm/claude-code-templates@latest/docs/)",
+      "Bash(curl -s https://cdn.jsdelivr.net/npm/claude-code-templates@latest/cli-tool/)",
+      "Bash(curl -s https://cdn.jsdelivr.net/npm/claude-code-templates@latest/docs/components.json)"
+    ]
+  }
+}
